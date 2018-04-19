@@ -1,0 +1,63 @@
+h1{
+    font-family: 'Nanum Pen Script', cursive;
+    color: Black;
+}
+header {
+    text-align: center;
+    border: 10px solid Black;
+    height: 100px;
+    background-color:aqua;
+    font-size: larger;    
+}
+a{
+    border: 3px solid Black;
+    padding:10px;
+    margin:5px;
+    background-color:pink;
+    
+}
+img{
+    display: inline-block;
+    float:right;
+}
+p{
+    text-align: justify;
+    display:inline-block;
+    width: 500px;
+    color:aqua;
+    font-size:larger;
+}
+h1{
+    text-align:center;
+    color:aqua;
+}
+body{
+    background-image: url("https://ak6.picdn.net/shutterstock/videos/17788156/thumb/1.jpg")
+}
+h2{
+    color:pink;
+}
+li{
+    color:aqua;
+}
+h3{
+    color:pink;
+    text-align: justify;
+}
+.grids{
+    display:grid;
+    grid-template-rows:40% 30% 30%;
+    grid-column-gap: 1em;
+    grid-template-columns: 40% 30% 30%;
+    grid-row-gap: 1em;
+    background-color:black;
+    padding:10px; 
+    
+}
+.box{
+    background-color:black;
+    padding:100px;
+    text-align:center;
+    font-size:100;
+    border:50px;
+}
